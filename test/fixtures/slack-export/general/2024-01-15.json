@@ -1,0 +1,5 @@
+[
+  {"type":"message","user":"U001","text":"Hello everyone!","ts":"1700000001.000001"},
+  {"type":"message","user":"U002","text":"Hey <@U001>, welcome!","ts":"1700000002.000002"},
+  {"type":"message","user":"U001","text":"Check out <https://linagora.com|Linagora website>","ts":"1700000003.000003"}
+]

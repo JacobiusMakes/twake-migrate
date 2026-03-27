@@ -10,7 +10,8 @@
     "start": "node src/index.js",
     "migrate:slack": "node src/index.js slack",
     "migrate:google": "node src/index.js google",
-    "dry-run": "node src/index.js dry-run"
+    "dry-run": "node src/index.js dry-run",
+    "test": "node --test 'test/**/*.test.js'"
   },
   "keywords": [
     "twake",
