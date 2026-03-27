@@ -1,0 +1,39 @@
+{
+  "name": "twake-migrate",
+  "version": "1.0.0",
+  "description": "Migrate from Slack and Google Workspace to Twake Workplace (Matrix + JMAP + Cozy)",
+  "type": "module",
+  "bin": {
+    "twake-migrate": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate:slack": "node src/index.js slack",
+    "migrate:google": "node src/index.js google",
+    "dry-run": "node src/index.js dry-run"
+  },
+  "keywords": [
+    "twake",
+    "linagora",
+    "migration",
+    "slack",
+    "google-workspace",
+    "matrix",
+    "jmap",
+    "cozy",
+    "enterprise",
+    "open-source"
+  ],
+  "author": "Jacob",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacobiusMakes/twake-migrate"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
